@@ -1,0 +1,19 @@
+<h1 class=" text-warning mt-5"><marquee>Product Project</marquee></h1>
+
+<div class="container head  offset-4">
+<button class="btn btn-primary ml-4 mb-2" (click)="onAddproduct()" >Add Product</button>
+<button class="btn btn-success ml-5 mb-2" (click)="onRemoveproduct()" [disabled]="pCount===0">Remove Product</button>
+</div>
+
+<div class="container py-5 offset-4">
+    <div class="card col-4 py-5 text-center ">
+        <div class="bg">
+            {{ pStatus}}
+        </div>
+        <div class="blob">
+           
+        </div>
+       
+    </div>
+</div>
+ 
